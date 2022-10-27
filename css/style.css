@@ -6,6 +6,12 @@ h1, h2 {
   }
   body {
     background : url(../img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #cccccc;
+    
   }
   
   button {
