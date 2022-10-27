@@ -4,6 +4,9 @@ h1, h2 {
     font-family: arial;
     margin: 10px;
   }
+  body {
+    background : url(../img/Background.jpg);
+  }
   
   button {
     display: block;
