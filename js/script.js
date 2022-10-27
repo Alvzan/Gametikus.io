@@ -1,7 +1,6 @@
 const tanah = document.querySelectorAll('.tanah');
 const tikus = document.querySelectorAll('.tikus');
 const papanSkor = document.querySelector('.papan-skor');
-
 let tanahSebelumnya;
 let selesai;
 let skor;
