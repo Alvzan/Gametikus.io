@@ -1,7 +1,7 @@
 const tanah = document.querySelectorAll('.tanah');
 const tikus = document.querySelectorAll('.tikus');
 const papanSkor = document.querySelector('.papan-skor');
-const pop = document.querySelector('#pop');
+
 
 let tanahSebelumnya;
 let selesai;
@@ -46,8 +46,7 @@ function mulai() {
 
 function pukul() {
   skor++;
-  this.parentNode.classList.remove('muncul');
-  pop.play();
+  this.parentNode.classList.remove('muncul');s
   papanSkor.textContent = skor;
 }
 
